@@ -1,0 +1,23 @@
+# Build output
+build/
+out/
+dist/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Visual Studio / editors
+.vs/
+.vscode/
+*.user
+*.suo
+CMakeSettings.json
+
+# Captures written by the tool itself
+midiscope-*.csv
+midiscope-*.jsonl
+midiscope-*.txt
+midiscope-live-*.*
+*.log

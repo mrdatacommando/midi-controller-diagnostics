@@ -1,0 +1,39 @@
+MidiScope 1.0.0
+Live MIDI monitor and diagnostic tool for Windows
+https://github.com/mrdatacommando/midi-controller-diagnostics
+
+
+TO RUN
+
+  Double-click MidiScope.exe. There is nothing to install.
+
+  The first time, Windows may show a blue "Windows protected your PC"
+  box. That is SmartScreen reacting to an executable it has not seen
+  before, not a virus warning - the file is simply not code-signed.
+  Click "More info", then "Run anyway".
+
+  If you would rather build it yourself from source, the repository
+  above has the full instructions.
+
+
+QUICK START
+
+  1. Tick the MIDI inputs you want to watch, in the list on the left.
+  2. Press "Start capture".
+  3. Play or touch your controller. Everything it sends appears in the
+     feed, decoded into plain English.
+  4. Wiggle an unknown knob and watch the Activity panel - it jumps to
+     the top with its CC number.
+  5. "Save log..." writes the session to CSV, JSON Lines or plain text.
+
+
+REQUIREMENTS
+
+  Windows 10 or 11, 64-bit.
+  No installer, no runtime, no .NET, no admin rights.
+
+
+LICENCE
+
+  MIT. See LICENSE.
+  Copyright (c) 2026 Mark Van de Velde.

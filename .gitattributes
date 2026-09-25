@@ -1,0 +1,14 @@
+# Normalise line endings in the repository; check out native on Windows.
+* text=auto
+
+*.cpp   text
+*.h     text
+*.md    text
+*.txt   text
+*.yml   text
+
+# Never touch these.
+*.zip   binary
+*.exe   binary
+*.png   binary
+*.ico   binary
